@@ -1,0 +1,237 @@
+#wrapper{
+display: flex;
+background-color: black;
+opacity: 0.8;
+}
+#wrapper-link{
+    display: flex;
+    justify-items: center;
+    padding-top: 28px;
+    padding-left: 50px;
+    font-size: larger;
+}
+h1{
+    color: green;
+}
+#wrapper-link a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#fullscreen{
+    height: 100vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    background-image: url(../image/ppp.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    letter-spacing: 0.3vh;
+    font-family: sans-serif;
+    }
+#introduction{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    word-spacing: 1vh;
+    line-height: 5vh;
+    color: gray;
+    font-family: Verdana;
+    font-size: larger;
+    margin-bottom: 100px;
+}
+
+#empty{
+    height: 20vh;
+    background-image: url(../image/emptydiv.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+
+}
+#statement h1{
+    word-spacing: 1vh;
+    color: #000000;
+    letter-spacing: 1vh;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 7vh;
+}
+
+#founderstatement h1{
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 100px;
+    word-spacing: 1vh;
+    letter-spacing: 0.5vh;
+    font-size: 7vh;
+    font-family: Verdana;
+}
+#founderstatement{
+    background-color: #000000;
+    color: white;
+    padding-bottom: 5rem;
+    word-spacing: 1vh;
+    line-height: 4vh;
+    font-size: large;
+    font-family: Arial;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 30px;
+    line-height: 3vh;
+    font-size: larger;
+    font-family: sans-serif;
+    
+
+}
+#portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.footer{
+    background-color: #000000;
+    color: white;
+    height: 6vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 2.5vh;
+}
+.social-media{
+font-size: 32px;
+}
+
+.social-media{
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-media:after{
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    width: 150px;
+    height: 44px;
+    margin: 0 auto;
+    border-bottom: 1px solid #929292;
+}
+
+.last-word{
+color: green;
+}
+.black{
+    color: #000000;
+}
+.portfolio{
+    text-align: center;
+    word-spacing: 0.5vh;
+    letter-spacing: 0.5vh;
+    font-family: 'Helvetica';
+}
+.founder{
+    color: white;
+}
+.column-1{
+    word-spacing: 1vh;
+    width: 500px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding: 30px 30px;
+    text-align: center;
+}
+.column-2{
+    word-spacing: 1vh;
+    width: 500px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding: 30px 30px;
+    text-align: center;
+    
+}
+.column-3{
+    word-spacing: 1vh;
+    width: 500px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    text-align: center;
+}
+.column-4{
+    word-spacing: 1vh;
+    width: 500px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    text-align: center;
+}
+.column-5{
+    word-spacing: 1vh;
+    width: 550px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    text-align: center;
+}
+.redbtn{
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 40px;
+
+}
+.register{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 40px;
+
+}
+.column-1:hover{
+    background-color: green;
+    transition: 1s;
+    color: white;
+}
+.column-2:hover{
+    
+    background-color: green;
+    transition: 1s;
+    color: white;
+}
+.column-3:hover{
+    background-color: green;
+    transition: 1s;
+    color: white;
+}
+.column-4:hover{
+    background-color: green;
+    transition: 1s;
+    color: white;
+ }
+ .column-5:hover{
+    background-color: green;
+    transition: 1s;
+    color: white;
+ 
+ }
